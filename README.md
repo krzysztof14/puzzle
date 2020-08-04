@@ -1,1 +1,1 @@
-# krzysztof14.github.io/puzzle/index/index.html
+# https://krzysztof14.github.io/puzzle/index/index.html
