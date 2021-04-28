@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Puzzle</title>
+  <link rel="stylesheet" href="../css/nowe.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet"> 
+</head>
+    <body>
+      <section class="nav">
+        <a class="push_button blue" href="#">Start</a> 
+        <a class="push_button blue" href="../app/puzzle_f3x3.html">Zacznij od nowa</a>
+      </section>
+      <section class="result">
+        <div class="time"><p>Czas:</p><p class="panel">---</p></div>
+      </section>
+      
+    </section>
+    <section class="game">
+      <div id="imgdrag">
+        <div id="images">
+         <img class="f4 draggable" draggable="true" id="f4">
+         <img class="f3 draggable" draggable="true" id="f3">
+         <img class="f8 draggable" draggable="true" id="f8">
+         <img class="f1 draggable" draggable="true" id="f1">
+         <img class="f9 draggable" draggable="true" id="f9">
+         <img class="f6 draggable" draggable="true" id="f6">
+         <img class="f2 draggable" draggable="true" id="f2">
+         <img class="f7 draggable" draggable="true" id="f7">
+         <img class="f5 draggable" draggable="true" id="f5">
+      </div>
+    </div>
+      
+      <div id="text">
+        <div class="fsection1">
+          <div class="droppable" data-draggable-id="f1"></div>
+          <div class="droppable" data-draggable-id="f2"></div>
+          <div class="droppable" data-draggable-id="f3"></div>
+          <div class="droppable" data-draggable-id="f4"></div>
+          <div class="droppable" data-draggable-id="f5"></div>
+          <div class="droppable" data-draggable-id="f6"></div>
+          <div class="droppable" data-draggable-id="f7"></div>
+          <div class="droppable" data-draggable-id="f8"></div>
+          <div class="droppable" data-draggable-id="f9"></div>
+        </div>
+      </div>  
+    </section>
+     <section class="back_to_menu">
+       <a class="push_button blue" href="../app/start.html">Powrót do menu</a>
+      </section>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
